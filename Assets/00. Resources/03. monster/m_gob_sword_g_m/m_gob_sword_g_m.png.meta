@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 56061bf15ee6c6e4eb233233cee953fc
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: m_gob_sword_g_m_0
+    21300002: m_gob_sword_g_m_1
+    21300004: m_gob_sword_g_m_2
+    21300006: m_gob_sword_g_m_3
+    21300008: m_gob_sword_g_m_4
+    21300010: m_gob_sword_g_m_5
+    21300012: m_gob_sword_g_m_6
+    21300014: m_gob_sword_g_m_7
+    21300016: m_gob_sword_g_m_8
+    21300018: m_gob_sword_g_m_9
+    21300020: m_gob_sword_g_m_10
+    21300022: m_gob_sword_g_m_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: m_gob_sword_g_m_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 183
+        width: 46
+        height: 72
+      alignment: 9
+      pivot: {x: .656486094, y: .398552358}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 185
+        width: 110
+        height: 68
+      alignment: 9
+      pivot: {x: .644352138, y: .302293897}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 219
+        width: 63
+        height: 37
+      alignment: 9
+      pivot: {x: .859581828, y: .477111399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 188
+        width: 55
+        height: 29
+      alignment: 9
+      pivot: {x: .261337847, y: .514600575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 44
+        height: 94
+      alignment: 9
+      pivot: {x: .360459566, y: .829962194}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 78
+        width: 85
+        height: 23
+      alignment: 9
+      pivot: {x: .111437947, y: .582845271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 108
+        width: 74
+        height: 73
+      alignment: 9
+      pivot: {x: .645912588, y: .298434108}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 76
+        width: 86
+        height: 31
+      alignment: 9
+      pivot: {x: .0925688669, y: .342919618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 8
+        width: 169
+        height: 53
+      alignment: 9
+      pivot: {x: .769969761, y: .671769917}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_9
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 50
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 14
+        width: 42
+        height: 25
+      alignment: 9
+      pivot: {x: .164782211, y: .44071883}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_sword_g_m_11
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 107
+        width: 85
+        height: 77
+      alignment: 9
+      pivot: {x: .483809888, y: .293782622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

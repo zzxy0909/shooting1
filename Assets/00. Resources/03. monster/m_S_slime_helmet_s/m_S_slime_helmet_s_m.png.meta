@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 7d0732adda7b4724ea5d261874e7a28a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: m_S_slime_helmet_w_m_0
+    21300002: m_S_slime_helmet_w_m_1
+    21300004: m_S_slime_helmet_w_m_2
+    21300006: m_S_slime_helmet_w_m_3
+    21300008: m_S_slime_helmet_w_m_4
+    21300010: m_S_slime_helmet_w_m_5
+    21300012: m_S_slime_helmet_w_m_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: m_S_slime_helmet_w_m_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 71
+        width: 38
+        height: 43
+      alignment: 9
+      pivot: {x: .18189998, y: .317657471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_S_slime_helmet_w_m_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 90
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_S_slime_helmet_w_m_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 55
+        width: 52
+        height: 38
+      alignment: 9
+      pivot: {x: .462304175, y: .379637867}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_S_slime_helmet_w_m_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 93
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_S_slime_helmet_w_m_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 75
+        height: 55
+      alignment: 9
+      pivot: {x: .433208406, y: .327741474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_S_slime_helmet_w_m_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 55
+        width: 27
+        height: 35
+      alignment: 9
+      pivot: {x: .350768059, y: .191971153}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_S_slime_helmet_w_m_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 43
+        height: 70
+      alignment: 9
+      pivot: {x: .553183198, y: .787804782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

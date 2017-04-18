@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 63f8c2abda9a28c409655bce38b390ae
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: m_gob_spear_g_m_0
+    21300002: m_gob_spear_g_m_1
+    21300004: m_gob_spear_g_m_2
+    21300006: m_gob_spear_g_m_3
+    21300008: m_gob_spear_g_m_4
+    21300010: m_gob_spear_g_m_5
+    21300012: m_gob_spear_g_m_6
+    21300014: m_gob_spear_g_m_7
+    21300016: m_gob_spear_g_m_8
+    21300018: m_gob_spear_g_m_9
+    21300020: m_gob_spear_g_m_10
+    21300022: m_gob_spear_g_m_11
+    21300024: m_gob_spear_g_m_12
+    21300026: m_gob_spear_g_m_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: m_gob_spear_g_m_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 173
+        width: 62
+        height: 83
+      alignment: 9
+      pivot: {x: .534083247, y: .472418547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 190
+        width: 36
+        height: 55
+      alignment: 9
+      pivot: {x: .511111379, y: .223636419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 44
+        width: 21
+        height: 211
+      alignment: 9
+      pivot: {x: .53791374, y: .345286369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 44
+        height: 93
+      alignment: 9
+      pivot: {x: .37634629, y: .849589825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 73
+        width: 104
+        height: 92
+      alignment: 9
+      pivot: {x: .417213708, y: .456727654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 73
+        width: 73
+        height: 23
+      alignment: 9
+      pivot: {x: .118255824, y: .424994767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 158
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 65
+        height: 40
+      alignment: 9
+      pivot: {x: .857273281, y: .480094612}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 4
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 5
+        width: 21
+        height: 19
+      alignment: 9
+      pivot: {x: .297787607, y: .660638511}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_10
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 166
+        width: 128
+        height: 90
+      alignment: 9
+      pivot: {x: .620155036, y: .234444514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 98
+        width: 75
+        height: 68
+      alignment: 9
+      pivot: {x: .660850286, y: .154171795}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_12
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 51
+        width: 92
+        height: 22
+      alignment: 9
+      pivot: {x: .103337869, y: .602541506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_spear_g_m_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 49
+        height: 29
+      alignment: 9
+      pivot: {x: .216088742, y: .487855315}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

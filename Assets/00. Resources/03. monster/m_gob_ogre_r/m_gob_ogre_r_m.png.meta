@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 7839c69e1ad2bd34093079993a4d8564
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: m_gob_ogre_r_m_0
+    21300002: m_gob_ogre_r_m_1
+    21300004: m_gob_ogre_r_m_2
+    21300006: m_gob_ogre_r_m_3
+    21300008: m_gob_ogre_r_m_4
+    21300010: m_gob_ogre_r_m_5
+    21300012: m_gob_ogre_r_m_6
+    21300014: m_gob_ogre_r_m_7
+    21300016: m_gob_ogre_r_m_8
+    21300018: m_gob_ogre_r_m_9
+    21300020: m_gob_ogre_r_m_10
+    21300022: m_gob_ogre_r_m_11
+    21300024: m_gob_ogre_r_m_12
+    21300026: m_gob_ogre_r_m_13
+    21300028: m_gob_ogre_r_m_14
+    21300030: m_gob_ogre_r_m_15
+    21300032: m_gob_ogre_r_m_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: m_gob_ogre_r_m_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 201
+        height: 162
+      alignment: 9
+      pivot: {x: .429151267, y: .183657989}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 358
+        width: 110
+        height: 154
+      alignment: 9
+      pivot: {x: .192530125, y: .395827264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 349
+        width: 201
+        height: 163
+      alignment: 9
+      pivot: {x: .477061272, y: .0959107578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 131
+        height: 137
+      alignment: 9
+      pivot: {x: .494670421, y: .566005051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 216
+        width: 64
+        height: 49
+      alignment: 9
+      pivot: {x: .191250563, y: .197551489}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_5
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 212
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 137
+        width: 88
+        height: 116
+      alignment: 9
+      pivot: {x: .79565084, y: .468770117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 251
+        width: 76
+        height: 98
+      alignment: 9
+      pivot: {x: .647332847, y: .758761346}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 325
+        height: 212
+      alignment: 9
+      pivot: {x: .802986026, y: .565245211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_9
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 116
+        width: 78
+        height: 21
+      alignment: 9
+      pivot: {x: .107333846, y: .468635559}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 144
+        width: 66
+        height: 107
+      alignment: 9
+      pivot: {x: .569858432, y: .733918369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2
+        width: 69
+        height: 114
+      alignment: 9
+      pivot: {x: .590685844, y: .713777304}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_12
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 7
+        width: 92
+        height: 106
+      alignment: 9
+      pivot: {x: .51789856, y: .751660049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 271
+        width: 180
+        height: 79
+      alignment: 9
+      pivot: {x: .229215324, y: .391611993}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 212
+        width: 70
+        height: 58
+      alignment: 9
+      pivot: {x: .645847201, y: .647631943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_15
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 253
+        width: 97
+        height: 96
+      alignment: 9
+      pivot: {x: .618831336, y: .335333496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_ogre_r_m_16
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 114
+        width: 65
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

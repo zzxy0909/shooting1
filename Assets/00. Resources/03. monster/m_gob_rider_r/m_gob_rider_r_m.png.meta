@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: dbb5de2c8d9363542af3f62c7d5671ae
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: m_gob_rider_r_m_0
+    21300002: m_gob_rider_r_m_1
+    21300004: m_gob_rider_r_m_2
+    21300006: m_gob_rider_r_m_3
+    21300008: m_gob_rider_r_m_4
+    21300010: m_gob_rider_r_m_5
+    21300012: m_gob_rider_r_m_6
+    21300014: m_gob_rider_r_m_7
+    21300016: m_gob_rider_r_m_8
+    21300018: m_gob_rider_r_m_9
+    21300020: m_gob_rider_r_m_10
+    21300022: m_gob_rider_r_m_11
+    21300024: m_gob_rider_r_m_12
+    21300026: m_gob_rider_r_m_13
+    21300028: m_gob_rider_r_m_14
+    21300030: m_gob_rider_r_m_15
+    21300032: m_gob_rider_r_m_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 5
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 13
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: m_gob_rider_r_m_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 316
+        width: 124
+        height: 196
+      alignment: 9
+      pivot: {x: .845703959, y: .795339167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 392
+        width: 134
+        height: 120
+      alignment: 9
+      pivot: {x: .780208886, y: .742497504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 341
+        width: 249
+        height: 171
+      alignment: 9
+      pivot: {x: .802847028, y: .247484177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 82
+        height: 87
+      alignment: 9
+      pivot: {x: .454209685, y: .16192399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 237
+        width: 39
+        height: 70
+      alignment: 9
+      pivot: {x: .532092392, y: .781609654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 204
+        width: 99
+        height: 184
+      alignment: 9
+      pivot: {x: .149172693, y: .664952636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 246
+        width: 88
+        height: 82
+      alignment: 9
+      pivot: {x: .460887551, y: .305391252}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_7
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 248
+        width: 94
+        height: 85
+      alignment: 9
+      pivot: {x: .762969017, y: .393245935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_8
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 253
+        width: 47
+        height: 67
+      alignment: 9
+      pivot: {x: .559916377, y: .766198456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 215
+        width: 41
+        height: 123
+      alignment: 9
+      pivot: {x: .400786608, y: .868865728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 24
+        height: 242
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 184
+        width: 84
+        height: 60
+      alignment: 9
+      pivot: {x: .499999642, y: .395700067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 169
+        height: 169
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_14
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 7
+        width: 34
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 331
+        width: 32
+        height: 61
+      alignment: 9
+      pivot: {x: .460886955, y: .638496757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: m_gob_rider_r_m_16
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 185
+        height: 191
+      alignment: 9
+      pivot: {x: .483287752, y: .643373787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
