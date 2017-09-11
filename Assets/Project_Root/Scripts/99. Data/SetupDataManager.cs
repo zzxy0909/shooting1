@@ -105,8 +105,11 @@ public class SetupDataManager : MonoBehaviour {
 			return false;
 		}
 	}
-	
-	IEnumerator IE_SetupTestData()
+
+    public TextAsset _defaultData;
+    public TextAsset _defaultBalance;
+
+    IEnumerator IE_SetupTestData()
 	{
         yield return new WaitForSeconds(_SetupDelay);
 
@@ -125,8 +128,16 @@ public class SetupDataManager : MonoBehaviour {
 //		{
 //		    log += " Can't read";
 //		}
-		
-		bytes = www.bytes;
+
+        if(_defaultData !=null)
+        {
+            bytes = _defaultData.bytes;
+            Debug.Log("~~~~~~~~ _defaultData.bytes");
+        }
+        else
+        {
+            bytes = www.bytes;
+        }
 
 		_log += "\n www.error = [" + www.error + "] www.size = " + www.size;
 				
@@ -182,8 +193,18 @@ public class SetupDataManager : MonoBehaviour {
             www = new WWW(dbpath);
             yield return www;
 		}
-		
-		bytes = www.bytes;
+
+        if (_defaultBalance != null)
+        {
+            bytes = _defaultBalance.bytes;
+            Debug.Log("~~~~~~~~ _defaultBalance.bytes");
+        }
+        else
+        {
+            bytes = www.bytes;
+        }
+
+        bytes = www.bytes;
 		
 		_log += "\n www.error = [" + www.error + "] www.size = " + www.size;
 		

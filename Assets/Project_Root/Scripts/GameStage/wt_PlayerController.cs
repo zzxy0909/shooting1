@@ -14,7 +14,7 @@ public enum E_HeroType
 }
 public class wt_PlayerController : MonoBehaviour
 {
-	static float _speed = 7f;
+	static float _speed = 1f;
     public E_HeroType _HeroType = E_HeroType.main;
     public wt_PlayerController[] _arrSubController;
 	public wt_Boundary boundary;
@@ -33,6 +33,39 @@ public class wt_PlayerController : MonoBehaviour
     public UnitInfo _UnitInfo;
     public int _slot_no = 0;
     public Transform _UnitRoot;
+
+    void OnEnable()
+    {
+        if (_HeroType == E_HeroType.main)
+        {
+            EasyJoystick.On_JoystickMove += On_JoystickMove;
+            EasyJoystick.On_JoystickMoveEnd += On_JoystickMoveEnd;
+            //EasyButton.On_ButtonPress += On_ButtonPress;
+            //EasyButton.On_ButtonUp += On_ButtonUp;
+            //EasyButton.On_ButtonDown += On_ButtonDown;
+        }
+    }
+    void OnDisable()
+    {
+        if (_HeroType == E_HeroType.main)
+        {
+            EasyJoystick.On_JoystickMove -= On_JoystickMove;
+            EasyJoystick.On_JoystickMoveEnd -= On_JoystickMoveEnd;
+            //		EasyButton.On_ButtonPress -= On_ButtonPress;
+            // EasyButton.On_ButtonUp -= On_ButtonUp;
+        }
+    }
+    void OnDestroy()
+    {
+        if (_HeroType == E_HeroType.main)
+        {
+            EasyJoystick.On_JoystickMove -= On_JoystickMove;
+            EasyJoystick.On_JoystickMoveEnd -= On_JoystickMoveEnd;
+            //		EasyButton.On_ButtonPress -= On_ButtonPress;
+            //EasyButton.On_ButtonUp -= On_ButtonUp;
+        }
+    }
+   
 
     void Start()
     {
@@ -352,6 +385,37 @@ public class wt_PlayerController : MonoBehaviour
         }));
     }
 
+    void On_JoystickMove(MovingJoystick move)
+    {
+        //////////////////////////////////////////////////
+        //moveHorizontal = Input.GetAxis("Horizontal");
+        //moveVertical = Input.GetAxis("Vertical");
+        //if (_isDrag == true)
+        //{
+        //    float move_ratioX = (0.16f * 1.5f);
+        //    float move_ratioY = (0.16f * 1.5f);
+        //    moveHorizontal = (Input.mousePosition.x - _oldMousePos.x) * move_ratioX;
+        //    moveVertical = (Input.mousePosition.y - _oldMousePos.y) * move_ratioY;
+        //    _oldMousePos = Input.mousePosition;
+        //}
+
+        Vector2 movement = move.joystickValue;  //  new Vector2(moveHorizontal, moveVertical);
+
+        GetComponent<Rigidbody2D>().velocity = movement * _speed;
+
+        GetComponent<Rigidbody2D>().transform.position = new Vector3
+        (
+            Mathf.Clamp(GetComponent<Rigidbody2D>().transform.position.x, boundary.xMin, boundary.xMax),
+            Mathf.Clamp(GetComponent<Rigidbody2D>().transform.position.y, boundary.yMin, boundary.yMax),
+            0.0f
+        );
+    }
+
+    void On_JoystickMoveEnd(MovingJoystick move)
+    {
+        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+    }
+
     bool _isDrag = false;
     Vector2 _oldMousePos = Vector2.zero;
 
@@ -361,29 +425,7 @@ public class wt_PlayerController : MonoBehaviour
 	{
         if (_HeroType == E_HeroType.main)
         {
-            moveHorizontal = Input.GetAxis("Horizontal");
-            moveVertical = Input.GetAxis("Vertical");
-
-            if (_isDrag == true)
-            {
-                float move_ratioX = (0.16f * 1.5f);
-                float move_ratioY = (0.16f * 1.5f);
-                moveHorizontal = (Input.mousePosition.x - _oldMousePos.x) * move_ratioX;
-                moveVertical = (Input.mousePosition.y - _oldMousePos.y) * move_ratioY;
-                _oldMousePos = Input.mousePosition;
-            }
-
-            Vector2 movement = new Vector2(moveHorizontal, moveVertical);
-
-            GetComponent<Rigidbody2D>().velocity = movement * _speed;
-
-            GetComponent<Rigidbody2D>().transform.position = new Vector3
-            (
-                Mathf.Clamp(GetComponent<Rigidbody2D>().transform.position.x, boundary.xMin, boundary.xMax),
-                Mathf.Clamp(GetComponent<Rigidbody2D>().transform.position.y, boundary.yMin, boundary.yMax),
-                0.0f
-            );
-
+            
             if (_UnitInfo == null)
             {
 

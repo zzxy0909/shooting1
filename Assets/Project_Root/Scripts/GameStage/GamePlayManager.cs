@@ -46,7 +46,7 @@ public class GamePlayManager : MonoBehaviour {
     public int _CurrentWave = 1;
     public SpawnController _SpawnController;
     public wt_WaveLoader _WaveLoader;
-
+    public EasyJoystick _Joystick;
 
     void Ready()
     {
@@ -79,10 +79,15 @@ public class GamePlayManager : MonoBehaviour {
         _PlayerManager.SpawnPlayer();
 
         _WaveLoader.LoadCurrentWaveSet();
+
+        _Joystick.enable = true;
+
     }
     public void GameEnd()
     {
         _State = E_PlayState.GameEnd;
+        _Joystick.enable = false;
+
         // game end report...
         StartCoroutine(IE_GameEnd());
 
@@ -90,7 +95,7 @@ public class GamePlayManager : MonoBehaviour {
     IEnumerator IE_GameEnd()
     {
         float delay = 2f;
-        Time.timeScale = 0.1f;
+//        Time.timeScale = 0.1f;
         yield return new WaitForSeconds( delay* Time.timeScale);
         
         Enemy[] arrEnemy = FindObjectsOfType<Enemy>();
@@ -99,7 +104,7 @@ public class GamePlayManager : MonoBehaviour {
             Destroy(en.gameObject);
         }
 
-        Time.timeScale = 1f;
+//        Time.timeScale = 1f;
 
         bool isFail = false;
         if (_PlayerManager._PlayerController._UnitInfo._HP <= 0)
@@ -137,11 +142,27 @@ public class GamePlayManager : MonoBehaviour {
         }
     }
 
-	// Use this for initialization
-	void Start () {
+    void SaveDataAll()
+    {
+        SaveUserExp();
+        SaveUnitData();
+    }
+    void OnApplicationPause(bool paused)
+    {
+        SaveDataAll();
+    }
+    public void OnApplicationQuit()
+    {
+        SaveDataAll();
+    }
+
+    // Use this for initialization
+    void Start () {
 
         Ready();
         _BestScore.SetBestScore(0);
+
+        _Joystick.enable = false;
     }
 	
 	// Update is called once per frame
@@ -150,6 +171,8 @@ public class GamePlayManager : MonoBehaviour {
 	}
     public void LoadStartMenu()
     {
+        SaveDataAll();
+
         Application.LoadLevel(GameWorld._Name_StartMenu);
     }
 }

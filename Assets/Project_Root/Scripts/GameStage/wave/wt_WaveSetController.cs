@@ -19,7 +19,7 @@ public class wt_WaveSetController : MonoBehaviour {
             _ChildNode = new wt_WaveNode[_Move_Root.childCount];
             for (int i = 1; i <= transform.childCount; i++)
             {
-                Transform child = _Move_Root.FindChild(i.ToString());
+                Transform child = _Move_Root.Find(i.ToString());
                 if (child)
                 {
                     _ChildNode[i - 1] = child.GetComponent<wt_WaveNode>();
